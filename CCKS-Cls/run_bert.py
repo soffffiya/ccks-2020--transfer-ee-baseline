@@ -1,4 +1,5 @@
 import torch
+print(torch.__version__)
 import time
 import warnings
 from pathlib import Path
@@ -22,6 +23,8 @@ from torch.utils.data import RandomSampler, SequentialSampler
 import pandas as pd
 import numpy as np
 import os
+
+
 
 warnings.filterwarnings("ignore")
 

@@ -5,7 +5,7 @@ from predict.predict import main
 if __name__ == '__main__':
     test_data_path = "../data/data.json"
     data_dir = "../result/"
-    main(test_data_path, data_dir)
+    main(test_data_path, data_dir)   #预测
     result = []
     with open("../result/nbest_predictions.json", "r", encoding="utf-8") as fr:
         data = json.load(fr)
